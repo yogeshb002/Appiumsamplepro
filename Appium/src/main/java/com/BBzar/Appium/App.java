@@ -28,7 +28,7 @@ public class App
 		 URL url = new URL("http://127.0.0.1:4723/wd/hub");
          driver = new AndroidDriver(url, capabilities);
 		 
-         WebElement BroBazaarApp = driver.findElement(AppiumBy.xpath("//*[@text='BroBazaar']"));
+         WebElement BroBazaarApp = driver.findElement(AppiumBy.xpath("//*[@text='Chrome']"));
          BroBazaarApp.click();
          
          System.out.println("App Launched Sucessfully");
